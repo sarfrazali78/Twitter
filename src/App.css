@@ -1,0 +1,7 @@
+.sidebar{
+    
+    border: blue;
+    height: 100px;
+    overflow:auto;
+    overflow-y: scroll;
+}

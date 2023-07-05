@@ -1,0 +1,54 @@
+.add_twitte div:nth-child(1){
+   height: 52px;
+   display: flex;
+}
+
+.add_twitte div:nth-child(1) img{
+    border-radius: 50px;
+    height: 49px;
+    margin-left: 10px;
+    margin-top: 10px;
+ }
+ .add_twitte div:nth-child(1) input{
+    margin-left: 10px;
+    width: 100%;
+    padding-left: 12px;
+    border: 0px; 
+    margin-top: 10px; 
+ }
+ 
+input::placeholder {
+    font: 20px sans-serif;
+}
+
+
+.icon_log{
+    display: flex;
+    border-bottom: 1px solid rgb(211, 210, 210);
+    
+}
+
+.icon_log div{
+    height: 20px;
+    width: 200px;
+    margin-top: -18px;
+    padding-top: 20px;
+    margin-left: 80px;
+    gap: 10px;
+    cursor: pointer;
+    
+}
+.icon_log_btn{
+    background-color:rgb(29,155,240) ;
+    margin-bottom:20px ;
+    color:white ;
+    font-weight:bold ;
+    padding-left:10px ;
+    width: 117px;
+    margin-left: 170px;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 17px;
+    cursor: pointer;
+}
+

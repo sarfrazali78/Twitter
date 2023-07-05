@@ -1,0 +1,36 @@
+
+.home{
+    display: flex;
+    background-color: white;
+    
+    margin-top: -8px;
+    /* margin-left: -2px; */
+
+    position: fixed;
+    
+}
+.first{
+    width:310px;
+    height: 300px;
+    
+    /* border: 1px solid red; */
+}
+.middle{
+    width:590px ;
+    ::-webkit-scrollbar {
+        display: none;
+    }   
+}
+.last{
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    width:100vw;
+}
+
+
+
+
+

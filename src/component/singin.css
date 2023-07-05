@@ -1,0 +1,58 @@
+
+body{
+    background-color: rgb(156, 156, 156); 
+   
+}
+
+.pageNo1{
+   border-radius: 20px;
+   background-color: white;
+   margin-top: 28px;
+   width: 582px;
+   height: 552px ;
+   margin-left: 29%;
+   text-align: center;
+}
+
+.pageNo2{
+   border-radius: 20px;
+   background-color: white;
+   margin-top: 28px;
+   width: 582px;
+   height: 552px ;
+   margin-left: 29%;
+   
+}
+
+.pageNo22{
+    margin-left: 80px;
+    
+    width: 430px;
+}
+.login1{
+    margin-left: 140px;
+}
+.login2{
+    margin-left: 90px;
+}
+
+.header__center {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.2rem;
+    align-items: center;
+    margin-top: 15px;
+    margin-left:  32%; 
+    }
+    
+    .header__center::before,
+    .header__center::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: rgb(83, 100, 113);
+    }
+    .container {
+    width: 27rem;
+    }
